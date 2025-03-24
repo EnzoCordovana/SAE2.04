@@ -32,10 +32,12 @@ CREATE TABLE BIEN(
 );
 
 CREATE TABLE ESPACE (
+    -- attributes
     IdE NUMBER(6, 0),
     Designation VARCHAR2(20) NOT NULL,
     Superficie NUMBER(6, 0) NOT NULL,
     IdeRattach NUMBER(6, 0),
+    -- Contrains
     CONSTRAINT pk_ESPACE PRIMARY KEY (IdE)
 );
 
