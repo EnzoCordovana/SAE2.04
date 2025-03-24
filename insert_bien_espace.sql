@@ -1,4 +1,4 @@
-INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (
 (900,'Superficie',50,NULL)
     (901,'Salon Cuisine',22,900)
     (902,'Chambre 1',10.5,900)
@@ -28,94 +28,95 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES
             (9125,'Escalier',4,9120)
             
 
-(1000,'Superficie',200,NULL),
-    (1001,'Superficie maison',100,1000),
-        (1010,'Rez de chaussée',60,1001),
-            (1011,'Entree',2,1010),
-            (1012,'Cuisine',10,1010),
-            (1013,'Salle a manger',8,1010),
-            (1014,'Buanderie',4,1010),
-            (1015,'Salle de bain 1',8,1010),
-            (1016,'Salon',18,1010),
-            (1017,'Escalier',2,1010),
-            (1018,'Chambre 1',8,1010),
-                (10180,'Dressing',2,1018),
-        (1020,'Etage',40,1001),
-            (1021,'Chambre 2',10,1020),
-                (10210,'Salle de bain 2',3,1021),
-            (1022,'Chambre 3',10,1020),
-                (10221,'Salle de bain 3',3,1022),
-            (1023,'Chambre 4',10,1020),
-                (10230,'Salle de bain 4',3,1023),
-            (1024,'Salle de bain 5',4,1020),
-            (1025,'Escalier',2,1020);
+(920,'Superficie',200,NULL),
+    (921,'Superficie maison',100,920),
+        (9210,'Rez de chaussée',60,921),
+            (9211,'Entree',2,9210),
+            (9212,'Cuisine',10,9210),
+            (9213,'Salle a manger',8,9210),
+            (9214,'Buanderie',4,9210),
+            (9215,'Salle de bain 1',8,9210),
+            (9216,'Salon',18,9210),
+            (9217,'Escalier',2,9210),
+            (9218,'Chambre 1',8,9210),
+                (92180,'Dressing',2,9218),
+        (9220,'Etage',40,921),
+            (9221,'Chambre 2',10,9220),
+                (92210,'Salle de bain 2',3,9221),
+            (9222,'Chambre 3',10,9220),
+                (92220,'Salle de bain 3',3,9222),
+            (9223,'Chambre 4',10,9220),
+                (92230,'Salle de bain 4',3,9223),
+            (9224,'Salle de bain 5',4,9220),
+            (9225,'Escalier',2,9220);
 
-(1100,'Superficie',180,NULL),
-    (1101,'Superficie maison',90,1100),
-        (1110,'Rez de chaussée',55,1101),
-            (1111,'Entree',2,1110),
-            (1112,'Cuisine',9,1110),
-            (1113,'Salle a manger',7,1110),
-            (1114,'Buanderie',3,1110),
-            (1115,'Salle de bain 1',7,1110),
-            (1116,'Salon',17,1110),
-            (1117,'Escalier',2,1110),
-            (1118,'Chambre 1',8,1110),
-                (11180,'Dressing',2,1118),
-        (1120,'Etage',35,1101),
-            (1121,'Chambre 2',9,1120),
-                (11210,'Salle de bain 2',3,1121),
-            (1122,'Chambre 3',9,1120),
-                (11221,'Salle de bain 3',3,1122),
-            (1123,'Chambre 4',9,1120),
-                (11230,'Salle de bain 4',3,1123),
-            (1124,'Salle de bain 5',4,1120),
-            (1125,'Escalier',2,1120);
+(930,'Superficie',180,NULL),
+    (931,'Superficie maison',90,930),
+        (9310,'Rez de chaussée',55,931),
+            (9311,'Entree',2,9310),
+            (9312,'Cuisine',9,9310),
+            (9313,'Salle a manger',7,9310),
+            (9314,'Buanderie',3,9310),
+            (9315,'Salle de bain 1',7,9310),
+            (9316,'Salon',17,9310),
+            (9317,'Escalier',2,9310),
+            (9318,'Chambre 1',8,9310),
+                (93180,'Dressing',2,9318),
+        (9320,'Etage',35,931),
+            (9321,'Chambre 2',9,9320),
+                (93210,'Salle de bain 2',3,9321),
+            (9322,'Chambre 3',9,9320),
+                (93220,'Salle de bain 3',3,9322),
+            (9323,'Chambre 4',9,9320),
+                (93230,'Salle de bain 4',3,9323),
+            (9324,'Salle de bain 5',4,9320),
+            (9325,'Escalier',2,9320);
 
-(1200,'Superficie',160,NULL),
-    (1201,'Superficie maison',80,1200),
-        (1210,'Rez de chaussée',50,1201),
-            (1211,'Entree',2,1210),
-            (1212,'Cuisine',8,1210),
-            (1213,'Salle a manger',6,1210),
-            (1214,'Buanderie',3,1210),
-            (1215,'Salle de bain 1',6,1210),
-            (1216,'Salon',15,1210),
-            (1217,'Escalier',2,1210),
-            (1218,'Chambre 1',8,1210),
-                (12180,'Dressing',2,1218),
-        (1220,'Etage',30,1201),
-            (1221,'Chambre 2',9,1220),
-                (12210,'Salle de bain 2',3,1221),
-            (1222,'Chambre 3',9,1220),
-                (12221,'Salle de bain 3',3,1222),
-            (1223,'Chambre 4',9,1220),
-                (12230,'Salle de bain 4',3,1223),
-            (1224,'Salle de bain 5',4,1220),
-            (1225,'Escalier',2,1220);
+(940,'Superficie',160,NULL),
+    (941,'Superficie maison',80,940),
+        (9410,'Rez de chaussée',50,941),
+            (9411,'Entree',2,9410),
+            (9412,'Cuisine',8,9410),
+            (9413,'Salle a manger',6,9410),
+            (9414,'Buanderie',3,9410),
+            (9415,'Salle de bain 1',6,9410),
+            (9416,'Salon',15,9410),
+            (9417,'Escalier',2,9410),
+            (9418,'Chambre 1',8,9410),
+                (94180,'Dressing',2,9418),
+        (9420,'Etage',30,941),
+            (9421,'Chambre 2',9,9420),
+                (94210,'Salle de bain 2',3,9421),
+            (9422,'Chambre 3',9,9420),
+                (94220,'Salle de bain 3',3,9422),
+            (9423,'Chambre 4',9,9420),
+                (94230,'Salle de bain 4',3,9423),
+            (9424,'Salle de bain 5',4,9420),
+            (9425,'Escalier',2,9420);
 
-(1300,'Superficie',140,NULL),
-    (1301,'Superficie maison',70,1300),
-        (1310,'Rez de chaussée',45,1301),
-            (1311,'Entree',2,1310),
-            (1312,'Cuisine',7,1310),
-            (1313,'Salle a manger',6,1310),
-            (1314,'Buanderie',3,1310),
-            (1315,'Salle de bain 1',6,1310),
-            (1316,'Salon',13,1310),
-            (1317,'Escalier',2,1310),
-            (1318,'Chambre 1',7,1310),
-                (13180,'Dressing',2,1318),
-        (1320,'Etage',25,1301),
-            (1321,'Chambre 2',8,1320),
-                (13210,'Salle de bain 2',3,1321),
-            (1322,'Chambre 3',8,1320),
-                (13221,'Salle de bain 3',3,1322),
-            (1323,'Chambre 4',8,1320),
-                (13230,'Salle de bain 4',3,1323),
-            (1324,'Salle de bain 5',4,1320),
-            (1325,'Escalier',2,1320);
+(950,'Superficie',140,NULL),
+    (951,'Superficie maison',70,950),
+        (9510,'Rez de chaussée',45,951),
+            (9511,'Entree',2,9510),
+            (9511,'Cuisine',7,9510),
+            (9513,'Salle a manger',6,9510),
+            (9514,'Buanderie',3,9510),
+            (9515,'Salle de bain 1',6,9510),
+            (9516,'Salon',13,9510),
+            (9517,'Escalier',2,9510),
+            (9518,'Chambre 1',7,9510),
+                (95180,'Dressing',2,9518),
+        (9520,'Etage',25,950),
+            (9521,'Chambre 2',8,9520),
+                (95210,'Salle de bain 2',3,9521),
+            (9522,'Chambre 3',8,9520),
+                (95220,'Salle de bain 3',3,9522),
+            (9523,'Chambre 4',8,9520),
+                (95230,'Salle de bain 4',3,9523),
+            (9524,'Salle de bain 5',4,9520),
+            (9525,'Escalier',2,9520);
 
+--maison 1 etage --
 (1400,'Superficie',120,NULL),
     (1401,'Superficie maison',60,1400),
         (1410,'Rez de chaussée',40,1401),
@@ -246,20 +247,21 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES
             (1923,'Chambre 4',3,1920),
                 (19230,'Salle de bain 4',2,1923),
             (1924,'Salle de bain 5',3,1920),
-            (1925,'Escalier',2,1920);
+            (1925,'Escalier',2,1920)
+);
 
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES
 (900,'Appartement','Studio',01,'Marseille',161350)
 (910,'Maison','Villa',02,'Bordeaux',698000)
-(1000,'Maison','Villa',03,'Lyon',450000);
-(1100,'Maison','Villa',04,'Nice',420000);
-(1200,'Maison','Villa',05,'Toulouse',400000);
-(1300,'Maison','Villa',06,'Lille',380000);
-(1400,'Maison','Villa',07,'Strasbourg',360000);
-(1500,'Maison','Villa',08,'Nantes',340000);
-(1600,'Maison','Villa',09,'Montpellier',320000);
-(1700,'Maison','Villa',10,'Rennes',300000);
-(1800,'Maison','Villa',11,'Grenoble',280000);
-(1900,'Maison','Villa',12,'Reims',260000);
+(920,'Maison','Villa',03,'Lyon',450000);
+(930,'Maison','Villa',04,'Nice',420000);
+(940,'Maison','Villa',05,'Toulouse',400000);
+(950,'Maison','Villa',06,'Lille',380000);
+(960,'Maison','Villa',07,'Strasbourg',360000);
+(970,'Maison','Villa',08,'Nantes',340000);
+(980,'Maison','Villa',09,'Montpellier',320000);
+(990,'Maison','Villa',10,'Rennes',300000);
+(1000,'Maison','Villa',11,'Grenoble',280000);
+(1010,'Maison','Villa',12,'Reims',260000);
 
 
