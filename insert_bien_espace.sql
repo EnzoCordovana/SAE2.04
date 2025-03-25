@@ -369,8 +369,43 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES
         (3416, 'Salon', 22, 3401),
         (3417, 'Chambre', 13, 3401),
             (34170, 'Dressing', 4, 3417),
-        (3418, 'Chambre', 13, 3401);
+        (3418, 'Chambre', 13, 3401),
 
+(3500, 'Superficie', 85, NULL),
+    (5401, 'Rez de chaussee', 85, 3400),
+        (3511, 'Entree', 3, 3401),
+        (3512, 'Cuisine', 13, 3401),
+        (3513, 'Salle a manger', 11, 3401),
+        (3514, 'Buanderie', 5, 3401),
+        (3515, 'Salle de bain', 7, 3401),
+        (3516, 'Salon', 22, 3401),
+        (3517, 'Chambre', 13, 3401),
+            (36170, 'Dressing', 4, 3417),
+        (3518, 'Chambre', 13, 3401),
+
+(3600, 'Superficie', 85, NULL),
+    (3601, 'Rez de chaussee', 85, 3400),
+        (3611, 'Entree', 3, 3401),
+        (3612, 'Cuisine', 13, 3401),
+        (3613, 'Salle a manger', 11, 3401),
+        (3614, 'Buanderie', 5, 3401),
+        (3615, 'Salle de bain', 7, 3401),
+        (3616, 'Salon', 22, 3401),
+        (3617, 'Chambre', 13, 3401),
+            (36170, 'Dressing', 4, 3417),
+        (3618, 'Chambre', 13, 3401),
+
+(3700, 'Superficie', 85, NULL),
+    (3701, 'Rez de chaussee', 85, 3400),
+        (3711, 'Entree', 3, 3401),
+        (3712, 'Cuisine', 13, 3401),
+        (3713, 'Salle a manger', 11, 3401),
+        (3714, 'Buanderie', 5, 3401),
+        (3715, 'Salle de bain', 7, 3401),
+        (3716, 'Salon', 22, 3401),
+        (3717, 'Chambre', 13, 3401),
+            (37170, 'Dressing', 4, 3417),
+        (3718, 'Chambre', 13, 3401);
 
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES
 (1000, 'Appartement', 'Studio', 240, 'Aix-en-Provence', 170000),
@@ -399,4 +434,6 @@ INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES
 (3100, 'Maison de ville', 'T4', 130, 'Paris', 750000),
 (3200, 'Maison de ville', 'T5', 140, 'Paris', 800000),
 (3300, 'Maison de campagne', 'T6 et plus', 150, 'Lille', 650000),
-(3400, 'Maison de ville', 'T5', 160, 'Paris', 850000);
+(3400, 'Maison de ville', 'T5', 160, 'Paris', 850000),
+(3500, 'Maison de ville', 'T5', 90, 'Paris', 850000);
+(3700, 'Maison de ville', 'T5', 100, 'Paris', 850000);
