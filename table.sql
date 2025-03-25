@@ -41,8 +41,8 @@ CREATE TABLE BIEN(
     Ville VARCHAR2(30) NOT NULL,
     Prix NUMBER(9, 2) NOT NULL,
     -- Constraints
-    CONSTRAINT ch_Categorie CHECK (Categorie IN ('Appartement', 'Maison de ville', 'Villa')),
-    CONSTRAINT ch_Type CHECK (Type IN ('Studio', 'T2', 'T3', 'T4', 'T5')),
+    CONSTRAINT ch_Categorie CHECK (Categorie IN ('Appartement', 'Maison de campagne', 'Maison de ville', 'Villa')),
+    CONSTRAINT ch_Type CHECK (Type IN ('Studio', 'T2', 'T3', 'T4', 'T5', 'T6 et plus')),
     CONSTRAINT pk_Bien_primaire PRIMARY KEY (IdEBien),
     CONSTRAINT fk_Proprio FOREIGN KEY (IdP) REFERENCES PROPRIO(IdP),
     CONSTRAINT fk_Bien_secondaire FOREIGN KEY (IdEBien) REFERENCES ESPACE(IdE)
