@@ -1,0 +1,77 @@
+-- Q1 NOMBRE DE BIEN POUR CHAQUE CATEGORIE ET TYPE
+SELECT Categorie, Type, COUNT(*) AS NombreDeBiens
+FROM BIEN
+GROUP BY Categorie, Type
+ORDER BY Categorie, Type;
+
+-- Q2 ESPACES COMPOSANT LE BIEN D'IDENTIFIANT 945
+SELECT IDE, DESIGNATION
+FROM ESPACE
+WHERE IDERATTACH = 945
+OR IDE = 945;
+
+-- Q3 PROPRIÉTAIRES N'AYANT AUCUN BIEN À MARSEILLE
+SELECT DISTINCT PROPRIO.IDP, NOM, PRENOM
+FROM PROPRIO
+JOIN BIEN ON BIEN.IDP = PROPRIO.IDP
+WHERE VILLE <> 'Marseille';
+
+-- Q4 villes dans lesquelles plus de 10 maisons de ville (categorie) sont proposées
+SELECT VILLE
+FROM BIEN
+WHERE CATEGORIE = 'Maison'
+GROUP BY VILLE
+HAVING COUNT(*) > 10;
+
+-- Q5 Pour les différents biens, donnez l’écart entre leur prix et le prix minimal proposé pour les biens.
+SELECT IDEBIEN, (Prix - (SELECT MIN(Prix) FROM BIEN)) AS EcartParRapportAuMin
+FROM BIEN
+ORDER BY EcartParRapportAuMin;
+
+-- Q6 Pour les différents biens, donnez l’écart entre leur prix et le prix minimal proposé dans leur catégorie.
+SELECT IDEBIEN, CATEGORIE,
+(PRIX - (SELECT MIN(PRIX) FROM BIEN B2 WHERE B2.CATEGORIE = B1.CATEGORIE )) AS EcartParRapportAuMinCategorie
+FROM BIEN B1
+ORDER BY CATEGORIE, ECARTPARRAPPORTAUMINCATEGORIE;
+
+-- Q7 Pour chaque propriétaire ayant au moins 2 studios, donnez le nombre total de biens
+SELECT PROPRIO.IDP, NOM, PRENOM, COUNT(BIEN.IDEBIEN) AS NombreBiens
+FROM PROPRIO
+JOIN BIEN ON BIEN.IDP = PROPRIO.IDP
+WHERE BIEN.TYPE = 'Studio'
+GROUP BY PROPRIO.IDP, NOM, PRENOM
+HAVING COUNT(BIEN.IDEBIEN) >= 2;
+
+-- Q8 Propriétaires qui ont un bien de chaque categorie
+SELECT PROPRIO.IDP, NOM, PRENOM
+FROM PROPRIO
+JOIN BIEN ON BIEN.IDP = PROPRIO.IDP
+GROUP BY PROPRIO.IDP, NOM, PRENOM
+HAVING COUNT(DISTINCT BIEN.CATEGORIE) = (SELECT COUNT(DISTINCT CATEGORIE) FROM BIEN);
+
+-- Q9 Quels sont les biens (identifiant) ayant la terrasse (désignation) la plus grande ?
+SELECT IDEBIEN
+FROM BIEN
+JOIN ESPACE ON ESPACE.IDERATTACH = BIEN.IDEBIEN
+WHERE DESIGNATION = 'Terrasse'
+AND SUPERFICIE = (SELECT MAX(SUPERFICIE) FROM ESPACE WHERE DESIGNATION = 'Terrasse')
+ORDER BY IDEBIEN;
+
+-- Q10 Quels sont les propriétaires (identifiant) ayant des biens dans les mêmes catégories que les biens du propriétaire 105.
+SELECT IDP
+FROM PROPRIO
+JOIN BIEN ON BIEN.IDP = PROPRIO.IDP
+WHERE CATEGORIE = (SELECT CATEGORIE
+                    FROM BIEN
+                    WHERE IDP = 105);
+
+-- Q11 Reformuler la requête Q6 en utilisant une vue
+CREATE VIEW Vue_Ecart_Prix AS
+SELECT IDEBIEN, CATEGORIE,
+       (PRIX - (SELECT MIN(PRIX) FROM BIEN B2 WHERE B2.CATEGORIE = B1.CATEGORIE)) AS EcartParRapportAuMinCategorie
+FROM BIEN B1
+ORDER BY CATEGORIE, ECARTPARRAPPORTAUMINCATEGORIE;
+
+SELECT * 
+FROM Vue_Ecart_Prix 
+ORDER BY CATEGORIE, EcartParRapportAuMinCategorie;
