@@ -197,7 +197,7 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (93230, 'Sa
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (9324, 'Salle de bain', 4, 9320);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (9325, 'Escalier', 2, 9320);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (932, 'Superficie jardin', 70, 930);
-INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (933, 'Terrasse', 20, 910);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (933, 'Terrasse', 20, 930);
 
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (945,'Superficie',160,NULL);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (946,'Superficie maison',80,945);
