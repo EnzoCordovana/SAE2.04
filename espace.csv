@@ -1,0 +1,257 @@
+"IDE","DESIGNATION","SUPERFICIE","IDERATTACH"
+900,"Superficie",50,
+901,"Salon Cuisine",22,900
+902,"Chambre",10.5,900
+903,"Chambre",8.5,900
+904,"Salle de bain",2.5,900
+1000,"Superficie",30,
+1001,"Pièce principale",25,1000
+1002,"Salle de bain",3,1000
+1003,"Cuisine",2,1000
+1100,"Superficie",35,
+1101,"Pièce principale",28,1100
+1102,"Salle de bain",3,1100
+1103,"Cuisine",4,1100
+1200,"Superficie",50,
+1201,"Salon Cuisine",22,1200
+1202,"Chambre",15,1200
+1203,"Salle de bain",8,1200
+1204,"Entrée",5,1200
+1300,"Superficie",70,
+1301,"Salon Cuisine",25,1300
+1302,"Chambre 1",15,1300
+1303,"Chambre 2",12,1300
+1304,"Salle de bain",10,1300
+1305,"Entrée",8,1300
+1400,"Superficie",90,
+1401,"Salon Cuisine",30,1400
+1402,"Chambre 1",18,1400
+1403,"Chambre 2",15,1400
+1404,"Chambre 3",12,1400
+1405,"Salle de bain",10,1400
+1406,"Entrée",5,1400
+1500,"Superficie",110,
+1501,"Salon Cuisine",35,1500
+1502,"Chambre 1",18,1500
+1503,"Chambre 2",16,1500
+1504,"Chambre 3",15,1500
+1505,"Chambre 4",12,1500
+1506,"Salle de bain",10,1500
+1507,"Entrée",4,1500
+910,"Superficie",337,
+911,"Superficie maison",156,910
+9110,"Rez de chaussée",103,911
+9111,"Entree",4,9110
+9112,"Cuisine",15,9110
+9113,"Salle a manger",12,9110
+9114,"Buanderie",6,9110
+9115,"salle de bain",15,9110
+9116,"Salon",30,9110
+9117,"Escalier",4,9110
+9118,"Chambre",15,9110
+91180,"Dressing",4,9118
+9120,"Etage",72,911
+9121,"Chambre",14,9120
+91210,"Salle de bain",5,9121
+9122,"Chambre",14,9120
+91221,"Salle de bain",5,9122
+9123,"Chambre",14,9120
+91230,"Salle de bain",5,9123
+9124,"Salle de bain",6,9120
+9125,"Escalier",4,9120
+912,"superficie jardin",181,910
+920,"Superficie",200,
+921,"Superficie maison",100,920
+9210,"Rez de chaussée",60,921
+9211,"Entree",2,9210
+9212,"Cuisine",10,9210
+9213,"Salle a manger",8,9210
+9214,"Buanderie",4,9210
+9215,"Salle de bain",8,9210
+9216,"Salon",18,9210
+9217,"Escalier",2,9210
+9218,"Chambre",8,9210
+92180,"Dressing",2,9218
+9220,"Etage",40,921
+9221,"Chambre",10,9220
+92210,"Salle de bain",3,9221
+9222,"Chambre",10,9220
+92220,"Salle de bain",3,9222
+9223,"Chambre",10,9220
+92230,"Salle de bain",3,9223
+9224,"Salle de bain",4,9220
+9225,"Escalier",2,9220
+922,"superficie jardin",100,910
+930,"Superficie",180,
+931,"Superficie maison",90,930
+9310,"Rez de chaussée",55,931
+9311,"Entree",2,9310
+9312,"Cuisine",9,9310
+9313,"Salle a manger",7,9310
+9314,"Buanderie",3,9310
+9315,"Salle de bain",7,9310
+9316,"Salon",17,9310
+9317,"Escalier",2,9310
+9318,"Chambre",8,9310
+93180,"Dressing",2,9318
+9320,"Etage",35,931
+9321,"Chambre",9,9320
+93210,"Salle de bain",3,9321
+9322,"Chambre",9,9320
+93220,"Salle de bain",3,9322
+9323,"Chambre",9,9320
+93230,"Salle de bain",3,9323
+9324,"Salle de bain",4,9320
+9325,"Escalier",2,9320
+932,"superficie jardin",90,910
+945,"Superficie",160,
+946,"Superficie maison",80,945
+9460,"Rez de chaussée",50,946
+9461,"Entree",2,9460
+9462,"Cuisine",8,9460
+9463,"Salle a manger",6,9460
+9464,"Buanderie",3,9460
+9465,"Salle de bain",6,9460
+9466,"Salon",15,9460
+9467,"Escalier",2,9460
+9468,"Chambre",8,9460
+94680,"Dressing",2,9468
+9470,"Etage",30,946
+9471,"Chambre",9,9470
+94710,"Salle de bain",3,9471
+9472,"Chambre",9,9470
+94720,"Salle de bain",3,9472
+9473,"Chambre",9,9470
+94730,"Salle de bain",3,9473
+9474,"Salle de bain",4,9470
+9475,"Escalier",2,9470
+947,"superficie jardin",80,910
+950,"Superficie",140,
+951,"Superficie maison",70,950
+9510,"Rez de chaussée",45,951
+9511,"Entree",2,9510
+9512,"Cuisine",7,9510
+9513,"Salle a manger",6,9510
+9514,"Buanderie",3,9510
+9515,"Salle de bain",6,9510
+9516,"Salon",13,9510
+9517,"Escalier",2,9510
+9518,"Chambre",7,9510
+95180,"Dressing",2,9518
+9520,"Etage",25,950
+9521,"Chambre",8,9520
+95210,"Salle de bain",3,9521
+9522,"Chambre",8,9520
+95220,"Salle de bain",3,9522
+9523,"Chambre",8,9520
+95230,"Salle de bain",3,9523
+9524,"Salle de bain",4,9520
+9525,"Escalier",2,9520
+952,"superficie jardin",70,910
+2000,"Superficie",100,
+2001,"Rez de chaussee",100,2000
+2011,"Entree",4,2001
+2012,"Cuisine",15,2001
+2013,"Salle a manger",12,2001
+2014,"Buanderie",6,2001
+2015,"Salle de bain",8,2001
+2016,"Salon",25,2001
+2017,"Chambre",15,2001
+20170,"Dressing",4,2017
+2018,"Chambre",15,2001
+2100,"Superficie",90,
+2101,"Rez de chaussee",90,2100
+2111,"Entree",3,2101
+2112,"Cuisine",14,2101
+2113,"Salle a manger",11,2101
+2114,"Buanderie",5,2101
+2115,"Salle de bain",7,2101
+2116,"Salon",22,2101
+2117,"Chambre",14,2101
+21170,"Dressing",3,2117
+2118,"Chambre",14,2101
+2200,"Superficie",80,
+2201,"Rez de chaussee",80,2200
+2211,"Entree",3,2201
+2212,"Cuisine",12,2201
+2213,"Salle a manger",10,2201
+2214,"Buanderie",4,2201
+2215,"Salle de bain",6,2201
+2216,"Salon",20,2201
+2217,"Chambre",13,2201
+22170,"Dressing",3,2217
+2218,"Chambre",13,2201
+2300,"Superficie",70,
+2301,"Rez de chaussee",70,2300
+2311,"Entree",3,2301
+2312,"Cuisine",10,2301
+2313,"Salle a manger",9,2301
+2314,"Buanderie",4,2301
+2315,"Salle de bain",5,2301
+2316,"Salon",18,2301
+2317,"Chambre",12,2301
+23170,"Dressing",3,2317
+2318,"Chambre",12,2301
+2400,"Superficie",60,
+2401,"Rez de chaussee",60,2400
+2411,"Entree",2,2401
+2412,"Cuisine",9,2401
+2413,"Salle a manger",8,2401
+2414,"Buanderie",3,2401
+2415,"Salle de bain",5,2401
+2416,"Salon",15,2401
+2417,"Chambre",11,2401
+24170,"Dressing",3,2417
+2418,"Chambre",11,2401
+2500,"Superficie",110,
+2501,"Rez de chaussee",110,2500
+2511,"Entrée",4,2501
+2512,"Cuisine",16,2501
+2513,"Salle a manger",13,2501
+2514,"Buanderie",7,2501
+2515,"Salle de bain",9,2501
+2516,"Salon",28,2501
+2517,"Chambre",16,2501
+25170,"Dressing",5,2517
+2518,"Chambre",16,2501
+2600,"Superficie",120,
+2601,"Rez de chaussee",120,2600
+2611,"Entrée",5,2601
+2612,"Cuisine",18,2601
+2613,"Salle a manger",15,2601
+2614,"Buanderie",8,2601
+2615,"Salle de bain",10,2601
+2616,"Salon",30,2601
+2617,"Chambre",17,2601
+26170,"Dressing",6,2617
+2618,"Chambre",17,2601
+2700,"Superficie",95,
+2701,"Rez de chaussee",95,2700
+2711,"Entrée",4,2701
+2712,"Cuisine",15,2701
+2713,"Salle a manger",12,2701
+2714,"Buanderie",6,2701
+2715,"Salle de bain",8,2701
+2716,"Salon",25,2701
+2717,"Chambre",14,2701
+27170,"Dressing",4,2717
+2718,"Chambre",14,2701
+2800,"Superficie",85,
+2801,"Rez de chaussee",85,2800
+2811,"Entree",3,2801
+2812,"Cuisine",13,2801
+2813,"Salle a manger",11,2801
+2814,"Buanderie",5,2801
+2815,"Salle de bain",7,2801
+2816,"Salon",22,2801
+2817,"Chambre",13,2801
+28170,"Dressing",4,2817
+2818,"Chambre",13,2801
+2900,"Superficie",105,
+2901,"Rez de chaussee",105,2900
+2911,"Entree",4,2901
+2912,"Cuisine",17,2901
+2913,"Salle a manger",14,2901
+2914,"Buanderie",7,2901
+2915,"Salle de bain",9,2901
+2916,"Salon",26,2901

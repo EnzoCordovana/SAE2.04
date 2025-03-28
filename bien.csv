@@ -1,0 +1,28 @@
+"IDEBIEN","CATEGORIE","TYPE","IDP","VILLE","PRIX"
+1000,"Appartement","Studio",240,"Aix-en-Provence",170000
+1100,"Appartement","Studio",240,"Aix-en-Provence",200000
+1200,"Appartement","T2",240,"Aix-en-Provence",270000
+1300,"Appartement","T3",240,"Monaco",500000
+1400,"Appartement","T4",240,"Aix-en-Provence",350000
+1500,"Appartement","T5",220,"Paris",600000
+900,"Appartement","Studio",10,"Marseille",180000
+910,"Maison de campagne","T5",220,"Bordeaux",550000
+920,"Maison de campagne","T6 et plus",30,"Lyon",600000
+930,"Villa","T6 et plus",40,"Nice",800000
+945,"Maison de campagne","T4",105,"Toulouse",450000
+950,"Maison de campagne","T4",106,"Lille",400000
+2000,"Maison de ville","T3",105,"Paris",500000
+2100,"Maison de ville","T3",160,"Lyon",400000
+2200,"Maison de ville","T4",170,"Marseille",450000
+2300,"Maison de campagne","T5",180,"Bordeaux",500000
+2400,"Maison de ville","T5",190,"Nice",650000
+2500,"Maison de ville","T3",70,"Paris",600000
+2600,"Maison de ville","T5",80,"Paris",700000
+2700,"Maison de ville","T5",90,"Paris",650000
+2800,"Maison de ville","T4",100,"Paris",680000
+2900,"Villa","T6 et plus",110,"Biarritz",900000
+3000,"Maison de campagne","T6 et plus",120,"Toulouse",700000
+3100,"Maison de ville","T4",130,"Paris",750000
+3200,"Maison de ville","T5",140,"Paris",800000
+3300,"Maison de campagne","T6 et plus",150,"Lille",650000
+3400,"Maison de ville","T5",160,"Paris",850000
