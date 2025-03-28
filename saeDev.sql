@@ -441,6 +441,32 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3417, 'Cha
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (34170, 'Dressing', 4, 3417);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3418, 'Chambre', 13, 3401);
 
+-- Maison 16
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3500, 'Superficie', 85, NULL);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (5401, 'Rez de chaussee', 85, 3500);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3511, 'Entree', 3, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3512, 'Cuisine', 13, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3513, 'Salle a manger', 11, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3514, 'Buanderie', 5, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3515, 'Salle de bain', 7, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3516, 'Salon', 22, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3517, 'Chambre', 13, 5401);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (36170, 'Dressing', 4, 3517);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3518, 'Chambre', 13, 5401);
+
+-- Maison 17
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3700, 'Superficie', 85, NULL);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3701, 'Rez de chaussee', 85, 3700);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3711, 'Entree', 3, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3712, 'Cuisine', 13, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3713, 'Salle a manger', 11, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3714, 'Buanderie', 5, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3715, 'Salle de bain', 7, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3716, 'Salon', 22, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3717, 'Chambre', 13, 3701);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (37170, 'Dressing', 4, 3717);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3718, 'Chambre', 13, 3701);
+
 
 
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (1000, 'Appartement', 'Studio', 240, 'Aix-en-Provence', 170000);
@@ -470,3 +496,5 @@ INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3100, 'Mai
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3200, 'Maison de ville', 'T5', 140, 'Paris', 800000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3300, 'Maison de campagne', 'T6 et plus', 150, 'Lille', 650000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3400, 'Maison de ville', 'T5', 160, 'Paris', 850000);
+INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3500, 'Maison de ville', 'T5', 90, 'Paris', 850000);
+INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3700, 'Maison de ville', 'T5', 100, 'Paris', 850000);
