@@ -478,12 +478,12 @@ INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (1300, 'App
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (1400, 'Appartement', 'T4', 240, 'Aix-en-Provence', 350000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (1500, 'Appartement', 'T5', 220, 'Paris', 600000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (900, 'Appartement', 'Studio', 10, 'Marseille', 180000);
-INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (910, 'Maison de campagne', 'T5', 220, 'Bordeaux', 550000);
+INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (910, 'Maison de campagne', 'T5', 240, 'Bordeaux', 550000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (920, 'Maison de campagne', 'T6 et plus', 30, 'Lyon', 600000);
-INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (930, 'Villa', 'T6 et plus', 40, 'Nice', 800000);
+INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (930, 'Villa', 'T6 et plus', 240, 'Nice', 800000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (945, 'Maison de campagne', 'T4', 105, 'Toulouse', 450000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (950, 'Maison de campagne', 'T4', 106, 'Lille', 400000);
-INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (2000, 'Maison de ville', 'T3', 105, 'Paris', 500000);
+INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (2000, 'Maison de ville', 'T3', 240, 'Paris', 500000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (2100, 'Maison de ville', 'T3', 160, 'Lyon', 400000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (2200, 'Maison de ville', 'T4', 170, 'Marseille', 450000);
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (2300, 'Maison de campagne', 'T5', 180, 'Bordeaux', 500000);
