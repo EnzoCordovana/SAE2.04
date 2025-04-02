@@ -220,7 +220,7 @@ INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (9473,'Cham
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (94730,'Salle de bain',3,9473);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (9474,'Salle de bain',4,9470);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (9475,'Escalier',2,9470);
-INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (947,'superficie jardin',80,940);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (947,'superficie jardin',80,945);
 
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (950, 'Superficie', 140, NULL);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (951, 'Superficie maison', 70, 950);
@@ -502,7 +502,7 @@ INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3500, 'Mai
 INSERT INTO BIEN (IdEBien, Categorie, Type, IdP, Ville, Prix) VALUES (3700, 'Maison de ville', 'T5', 100, 'Paris', 850000);
 
 --maison de montagne--
-INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3800, 'Superficie', 56,9, NULL);
+INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3800, 'Superficie', 56.9, NULL);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (3801, 'chalet', 45.4, 3800);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (38011, 'Entree', 6, 3801);
 INSERT INTO ESPACE (IdE, Designation, Superficie, IdERattach) VALUES (38012, 'Salon', 15.9, 3801);
@@ -648,10 +648,6 @@ WHERE E.IDE = (
         WHERE DESIGNATION = 'Terrasse'
     )
 );
-
-SELECT MAX(SUPERFICIE)
-    FROM ESPACE
-    WHERE DESIGNATION = 'Terrasse';
 
 -- Q10 Quels sont les propriétaires (identifiant) ayant des biens dans les mêmes catégories que les biens du propriétaire 105.
 SELECT P.IDP
